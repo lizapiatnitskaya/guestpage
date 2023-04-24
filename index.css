@@ -46,4 +46,19 @@ p {
     background-image: url(images/star.png);
     background-repeat: no-repeat;
     background-position: top left;
+    line-height: 1.9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #444;
+}
+#drinks{
+    width: 20%;
+    border: 1px solid #007e7e;
+    padding: 50px;
+    padding-top: 10px;
+    line-height: 1.3em;
+    text-align: center;
+    background-image: url(images/glassnew.png);
+    background-repeat: repeat-x;
+    background-position: top;
 }
