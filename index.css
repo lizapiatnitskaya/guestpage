@@ -25,6 +25,8 @@ h2{
     border: 1px dashed white;
     padding: 25px;
     padding-left: 80px;
+    margin: 30px;
+    margin-right: 270px;
     background:  #a7cece url(images/star.png) no-repeat top left;
     font-family:  Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
@@ -32,13 +34,15 @@ h2{
     color:#444;
 }
 #drinks{
-    width: 20%;
+    width: 200px;
     border: 1px solid #007e7e;
     padding: 30px;
     padding-top: 10px;
     line-height: 1;
     text-align: center;
     background: url(images/glassnew.png) repeat-x top;
+    float:right;
+    margin-left: 20px;
     
 }
 #drinks h2{
@@ -59,3 +63,13 @@ h2{
 .artist{
     font-weight: bold;
 }
+#drinks a:link {
+    color: #007e7e;
+    }
+#drinks a:visited {
+    color: #333;
+    }
+#drinks a:hover {
+    background: #f88396;
+    color: #0d5353;
+    }
